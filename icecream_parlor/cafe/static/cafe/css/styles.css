@@ -1,0 +1,71 @@
+/* cafe/static/cafe/css/styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+/* Home Page */
+.flavor-list, .allergen-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flavor-list li, .allergen-list li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Form Pages */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Cart Page */
+.cart-item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item-list li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Search Page */
+.search-result-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-result-list li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
